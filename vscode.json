@@ -1,0 +1,350 @@
+{
+  "workbench.productIconTheme": "fluent-icons",
+  "workbench.startupEditor": "none",
+  "workbench.editor.highlightModifiedTabs": true,
+  "workbench.editor.labelFormat": "short",
+  "workbench.list.keyboardNavigation": "filter",
+  "workbench.editor.showTabs": true,
+  "workbench.colorTheme": "Omni",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.tree.indent": 15,
+
+  //! Files Settings
+
+  "files.eol": "\n",
+  "files.autoSave": "off",
+  "files.defaultLanguage": "typescript",
+  "files.associations": {
+    "*.html": "html",
+    "*.js": "javascriptreact",
+    "ace": "javascript",
+    ".env.testing.example": "dotenv",
+    ".sequelizerc": "javascript",
+    ".stylelintrc": "json",
+    ".prettierrc": "json",
+    ".eslintrc": "json"
+  },
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    ".next": true,
+    "node_modules": true,
+    "**/node_modules": true
+  },
+
+  //! Explorer Settings
+
+  "explorer.compactFolders": false,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "window.titleSeparator": " | ",
+  "window.closeWhenEmpty": false,
+  "window.menuBarVisibility": "compact",
+
+  //! Terminal Settings
+
+  "terminal.integrated.fontSize": 13,
+  "terminal.integrated.lineHeight": 1.28,
+  "terminal.integrated.fontFamily": "JetBrains Mono",
+  "terminal.integrated.profiles.linux": {
+    "Zsh": {
+      "path": "/bin/zsh"
+    }
+  },
+  "terminal.integrated.defaultProfile.linux": "Zsh",
+  "terminal.integrated.profiles.windows": {
+    "Command Prompt": {
+      "path": "C:\\WINDOWS\\System32\\cmd.exe"
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "Command Prompt",
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1"
+  },
+
+  //! Editor Settings
+
+  "editor.cursorBlinking": "phase",
+  "editor.cursorStyle": "line",
+  "editor.tabSize": 2,
+  "editor.fontSize": 14,
+  "editor.lineHeight": 19,
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.insertSpaces": true,
+  "editor.fontWeight": "400",
+  "editor.fontLigatures": true,
+  "editor.minimap.enabled": true,
+  "editor.rulers": [
+    80,
+    120
+  ],
+  "editor.renderLineHighlight": "gutter",
+  "editor.inlineSuggest.enabled": true,
+  "editor.wordWrap": "on",
+  "editor.wordWrapColumn": 150,
+  "editor.smoothScrolling": true,
+  "editor.linkedEditing": true,
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.suggestSelection": "first",
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "editor.wordBasedSuggestions": true,
+  "editor.parameterHints.enabled": false,
+  "editor.semanticHighlighting.enabled": false,
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "vsintellicode.typescript.completionsEnabled": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs":"active",
+  "editor.accessibilitySupport": "off",
+
+  //! Search Settings
+
+  "search.useIgnoreFiles": false,
+  "search.exclude": {
+    "**/public/{[^i],?[^n]}*": true,
+    "**/node_modules": true,
+    "**/dist": true,
+    "**/yarn.lock": true,
+    "**/package-lock.json": true
+  },
+
+  //! Extensions Settings
+
+  "extensions.ignoreRecommendations": true,
+  "extensions.autoCheckUpdates": true,
+  "extensions.autoUpdate": true,
+  "breadcrumbs.enabled": true,
+
+  //!  Emmet Settings
+
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx",
+    "typescript": "tsx"
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "typescript": "typescriptreact"
+  },
+  "emmet.triggerExpansionOnTab": true,
+
+  //! TS and JS Server Settings
+
+  "typescript.tsserver.log": "off",
+  "typescript.suggest.autoImports": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.suggest.autoImports": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+
+  //! Project Manager Extension Settings
+
+  "projectManager.git.baseFolders": [
+    "$home/work",
+    "$home/www"
+  ],
+  //! Git Settings
+
+  "git.autofetch": true,
+  "git.enableSmartCommit": true,
+  "git.enableCommitSigning": true,
+
+  //! GitLens Extension Settings
+
+  "gitlens.codeLens.recentChange.enabled": false,
+  "gitlens.codeLens.authors.enabled": false,
+  "gitlens.codeLens.enabled": false,
+  "gitlens.defaultDateFormat": "DD/MM/YYYY | hh:mm:ss",
+
+  //! ESLint Extension Settings
+
+  "eslint.run": "onType",
+  "eslint.packageManager": "yarn",
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+
+  //! Prettier Extension Settings
+
+  "[javascript, javascriptreact, typescript, typescriptreact]": {
+    // "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "prettier.useTabs": true,
+  "prettier.requireConfig": true,
+  "prettier.useEditorConfig": false,
+
+  //! Error Lens Extension Settings
+
+  "errorLens.enabledDiagnosticLevels": [
+    "error",
+    "info",
+    "warning"
+  ],
+  //! Create React App
+
+  "createReactTSXComponent.fileExtension": "js",
+
+  //! Sync Extension Settings
+
+  "sync.gist": "7c65abc3abdd8093c84fe46ad461dac1",
+  "sync.forceUpload": false,
+  "sync.autoDownload": false,
+
+  //! Live Server Settings
+
+  "liveServer.settings.donotVerifyTags": true,
+
+  //! Live Share Settings
+
+  "liveshare.presence": true,
+  "liveshare.allowInvites": "all",
+  "liveshare.connectionMode": "relay",
+
+  //! Material Icon Theme Settings
+
+  "material-icon-theme.folders.color": "#8257e5",
+  "material-icon-theme.activeIconPack": "react_redux",
+  "material-icon-theme.folders.associations": {
+    ".jest": "config",
+    "start": "core",
+    "patches": "packages",
+    "seeds": "generator",
+    "functional": "tasks",
+    "unit": "tasks",
+    "config": "tools",
+    "pages": "views",
+    "assets": "images",
+    "styles": "theme",
+    "exceptions": "error",
+    "components": "react-components",
+    "store": "redux-store",
+    "infra": "app",
+    "entities": "class",
+    "schemas": "class",
+    "typeorm": "database",
+    "repositories": "mappings",
+    "http": "container",
+    "migrations": "tools",
+    "modules": "components",
+    "implementations": "core",
+    "dtos": "typescript",
+    "fakes": "mock",
+    "websockets": "pipe",
+    "protos": "pipe",
+    "grpc": "pipe",
+    "rollup": "rules",
+    "domain": "class",
+    "providers": "include",
+    "subscribers": "messages",
+    "useCases": "controller",
+    "kafka": "scripts",
+    "mappers": "meta",
+    "_shared": "shared",
+    "eslint-config": "tools",
+    "kube": "kubernetes"
+  },
+  "material-icon-theme.files.associations": {
+    "package.json": "nodejs_alt",
+    "*.example": "tune",
+    "ormconfig.json": "database",
+    "ormconfig.js": "database",
+    "jsconfig.json": "settings",
+    "tsconfig.json": "settings",
+    "tsconfig.extends.json": "settings",
+    "tsconfig.paths.json": "settings",
+    "sagas.js": "redux-store",
+    "styles.js": "sass",
+    "styles.ts": "sass",
+    "styled.ts": "sass",
+    "styled.js": "sass",
+    "ace": "adonis",
+    "animations.ts": "shaderlab",
+    "*.proto": "3d",
+    "rollup.config.babel.js": "rollup",
+    "rollup.default.config.js": "rollup",
+    "*.webpack.js": "webpack"
+  },
+  "material-icon-theme.languages.associations": {
+    "dotenv": "tune"
+  },
+
+  //! Github Copilot
+
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": true,
+    "plaintext": false,
+    "markdown": true
+  },
+
+  //! GitLens Settings
+
+  "gitlens.advanced.messages": {
+    "suppressGitMissingWarning": true
+  },
+  "gitlens.defaultDateShortFormat": "DD/MM/YYYY",
+  "gitlens.defaultTimeFormat": "hh:mm:ss",
+
+  //! Comments Settings
+
+  "better-comments.tags": [
+    {
+      "tag": "!",
+      "color": "#FF2D00",
+      "strikethrough": false,
+      "backgroundColor": "transparent"
+    },
+    {
+      "tag": "?",
+      "color": "#3498DB",
+      "strikethrough": false,
+      "backgroundColor": "transparent"
+    },
+    {
+      "tag": "//",
+      "color": "#474747",
+      "strikethrough": true,
+      "backgroundColor": "transparent"
+    },
+    {
+      "tag": "todo",
+      "color": "#FF8C00",
+      "strikethrough": false,
+      "backgroundColor": "transparent"
+    },
+    {
+      "tag": "*",
+      "color": "#98C379",
+      "strikethrough": false,
+      "backgroundColor": "transparent"
+    }
+  ],
+
+  //! Code Folding Settings
+
+  "diffEditor.ignoreTrimWhitespace": false,
+  "diffEditor.maxComputationTime": 0,
+
+  //! TailwindCSS Emmet
+
+  "tailwindCSS.emmetCompletions": true,
+  "tailwindCSS.includeLanguages": {
+    "plaintext": "html"
+  },
+
+  //! Redhat Settings
+  "redhat.telemetry.enabled": true,
+  "security.workspace.trust.untrustedFiles": "open",
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+}

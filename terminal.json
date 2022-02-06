@@ -1,0 +1,108 @@
+{
+  "$schema": "https://aka.ms/terminal-profiles-schema",
+  "actions": 
+  [
+      {
+          "command": 
+          {
+              "action": "copy",
+              "singleLine": false
+          },
+          "keys": "ctrl+c"
+      },
+      {
+          "command": "find",
+          "keys": "ctrl+shift+f"
+      },
+      {
+          "command": "paste",
+          "keys": "ctrl+v"
+      },
+      {
+          "command": 
+          {
+              "action": "splitPane",
+              "split": "auto",
+              "splitMode": "duplicate"
+          },
+          "keys": "alt+shift+d"
+      }
+  ],
+  "copyFormatting": "none",
+  "copyOnSelect": false,
+  "defaultProfile": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+  "initialCols": 100,
+  "initialRows": 20,
+  "profiles": 
+  {
+      "defaults": 
+      {
+          "colorScheme": "Omni"
+      },
+      "list": 
+      [
+          {
+              "commandline": "powershell.exe",
+              "fontFace": "Fira Code Retina",
+              "fontSize": 11,
+              "fontWeight": "medium",
+              "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+              "hidden": false,
+              "name": "Windows PowerShell"
+          },
+          {
+              "commandline": "cmd.exe",
+              "fontFace": "Fira Code Retina",
+              "fontSize": 11,
+              "fontWeight": "medium",
+              "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+              "hidden": false,
+              "name": "Prompt de comando"
+          },
+          {
+              "fontFace": "Fira Code Retina",
+              "fontSize": 11,
+              "fontWeight": "medium",
+              "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+              "hidden": false,
+              "name": "Azure Cloud Shell",
+              "source": "Windows.Terminal.Azure"
+          },
+          {
+              "fontFace": "Fira Code Retina",
+              "fontSize": 11,
+              "fontWeight": "medium",
+              "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+              "hidden": false,
+              "name": "Ubuntu",
+              "source": "Windows.Terminal.Wsl"
+          }
+      ]
+  },
+  "schemes": 
+  [
+      {
+          "background": "#191622",
+          "black": "#000000",
+          "blue": "#BD93F9",
+          "brightBlack": "#4D4D4D",
+          "brightBlue": "#CAA9FA",
+          "brightCyan": "#AA91E3",
+          "brightGreen": "#5AF78E",
+          "brightPurple": "#FF92D0",
+          "brightRed": "#FF6E67",
+          "brightWhite": "#E6E6E6",
+          "brightYellow": "#EAF08D",
+          "cursorColor": "#F8F8F2",
+          "cyan": "#8D79BA",
+          "foreground": "#E1E1E6",
+          "green": "#50FA7B",
+          "name": "Omni",
+          "purple": "#FF79C6",
+          "red": "#FF5555",
+          "selectionBackground": "#41414D",
+          "white": "#BFBFBF",
+          "yellow": "#EFFA78"
+      }
+  ]
+}
