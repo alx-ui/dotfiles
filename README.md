@@ -15,7 +15,7 @@ ln -s ~/.dotfiles/.zshrc ~/.zshrc
 ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
 ln -s ~/.dotfiles/.hyper.js ~/.hyper.js
 
-## How to extract current installed files?
+## Atualizar os dotfiles para o Github
 ```sh
 cd ~/.dotfiles && git add . && git commit -m "update" && git push 
 ```
