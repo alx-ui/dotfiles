@@ -128,6 +128,16 @@ module.exports = {
         // set to true to enable screen reading apps (like NVDA) to read the contents of the terminal
         screenReaderMode: false,
         // for advanced config flags please refer to https://hyper.is/#cfg
+        // custom plugins to hyperline
+        // https://github.com/Hyperline/hyperline
+        hyperline: {
+            plugins: [
+                "ip",
+                "cpu",
+                "memory",
+                "network"
+            ]
+        }
     },
     // a list of plugins to fetch and install from npm
     // format: [@org/]project[#version]
@@ -135,7 +145,7 @@ module.exports = {
     //   `hyperpower`
     //   `@company/project`
     //   `project#1.0.1`
-    plugins: ["hyper-omni-theme"],
+    plugins: ["hyper-omni-theme", "hyperline"],
     // in development, you can create a directory under
     // `~/.hyper_plugins/local/` and include it here
     // to load it and avoid it being `npm install`ed
