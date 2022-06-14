@@ -142,6 +142,8 @@
 	//! Project Manager Extension Settings
 
 	"projectManager.git.baseFolders": ["$home/work", "$home/www"],
+	"projectManager.sortList": "Name",
+
 	//! Git Settings
 
 	"git.autofetch": true,
@@ -152,8 +154,8 @@
 
 	"gitlens.codeLens.recentChange.enabled": false,
 	"gitlens.codeLens.authors.enabled": false,
-	"gitlens.codeLens.enabled": false,
 	"gitlens.defaultDateFormat": "DD/MM/YYYY | hh:mm:ss",
+	"gitlens.codeLens.enabled": false,
 
 	//! ESLint Extension Settings
 
@@ -169,8 +171,10 @@
 	//! Prettier Extension Settings
 
 	"[javascript, javascriptreact, typescript, typescriptreact]": {
-		// "editor.defaultFormatter": "esbenp.prettier-vscode"
-		"editor.defaultFormatter": "vscode.typescript-language-features"
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[json]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
 	"prettier.useTabs": true,
 	"prettier.requireConfig": true,
@@ -179,15 +183,6 @@
 	//! Error Lens Extension Settings
 
 	"errorLens.enabledDiagnosticLevels": ["error", "info", "warning"],
-	//! Create React App
-
-	"createReactTSXComponent.fileExtension": "js",
-
-	//! Sync Extension Settings
-
-	"sync.gist": "7c65abc3abdd8093c84fe46ad461dac1",
-	"sync.forceUpload": false,
-	"sync.autoDownload": false,
 
 	//! Live Server Settings
 
@@ -272,7 +267,7 @@
 	"github.copilot.enable": {
 		"*": true,
 		"yaml": true,
-		"plaintext": false,
+		"plaintext": true,
 		"markdown": true
 	},
 
@@ -332,16 +327,13 @@
 	},
 
 	//! Redhat Settings
+
 	"redhat.telemetry.enabled": true,
 	"security.workspace.trust.untrustedFiles": "open",
-	"[javascriptreact]": {
-		"editor.defaultFormatter": "vscode.typescript-language-features"
-	},
+
+	//! Sass Settings
+
 	"[scss]": {
 		"editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter"
-	},
-	"projectManager.sortList": "Name",
-	"[typescriptreact]": {
-		"editor.defaultFormatter": "vscode.typescript-language-features"
 	}
 }
