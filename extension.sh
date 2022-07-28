@@ -1,21 +1,25 @@
 code --install-extension aaron-bond.better-comments &&
 code --install-extension alefragnani.project-manager &&
+code --install-extension bierner.markdown-preview-github-styles &&
 code --install-extension bradlc.vscode-tailwindcss &&
 code --install-extension burkeholland.simple-react-snippets &&
 code --install-extension christian-kohler.npm-intellisense &&
 code --install-extension christian-kohler.path-intellisense &&
 code --install-extension codezombiech.gitignore &&
 code --install-extension cssho.vscode-svgviewer &&
+code --install-extension csstools.postcss &&
 code --install-extension DavidAnson.vscode-markdownlint &&
 code --install-extension dbaeumer.vscode-eslint &&
 code --install-extension dracula-theme.theme-dracula &&
 code --install-extension eamodio.gitlens &&
 code --install-extension EditorConfig.EditorConfig &&
-code --install-extension eg2.vscode-npm-script &&
 code --install-extension esbenp.prettier-vscode &&
 code --install-extension formulahendry.auto-rename-tag &&
 code --install-extension GitHub.copilot &&
+code --install-extension GraphQL.vscode-graphql &&
 code --install-extension guilhermerodz.omni-owl &&
+code --install-extension JounQin.vscode-mdx &&
+code --install-extension jpoissonnier.vscode-styled-components &&
 code --install-extension kisstkondoros.vscode-gutter-preview &&
 code --install-extension miguelsolorio.fluent-icons &&
 code --install-extension mikestead.dotenv &&
@@ -37,8 +41,8 @@ code --install-extension ritwickdey.LiveServer &&
 code --install-extension rocketseat.theme-omni &&
 code --install-extension sburg.vscode-javascript-booster &&
 code --install-extension sibiraj-s.vscode-scss-formatter &&
+code --install-extension silvenon.mdx &&
 code --install-extension steoates.autoimport &&
 code --install-extension usernamehw.errorlens &&
 code --install-extension VisualStudioExptTeam.vscodeintellicode &&
-code --install-extension withfig.fig &&
-code --install-extension yzhang.markdown-all-in-one
+code --install-extension yzhang.markdown-all-in-one 
